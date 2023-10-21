@@ -32,5 +32,19 @@ const zodiacSigns = [
         "Listen to your body and take care of yourself."
       ]
     },
+    Taurus: {
+        Love: [
+          "A great day for expressing your love and affection.",
+          "Strengthen your emotional bonds with loved ones."
+        ],
+        Career: [
+          "Your hard work is paying off in your career.",
+          "New opportunities are on the horizon."
+        ],
+        Health: [
+          "Focus on maintaining a healthy lifestyle today.",
+          "Your well-being is a top priority."
+        ]
+      },
 }
   
