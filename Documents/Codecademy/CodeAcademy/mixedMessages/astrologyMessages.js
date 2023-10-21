@@ -186,5 +186,17 @@ const zodiacSigns = [
           "Embrace meditation and relaxation."
         ]
       }
-}
+};
+
+function generateAstrologyMessage() {
+    const randomSign = zodiacSigns[Math.floor(Math.random() * zodiacSigns.length)];
+    const randomElement = horoscopeElements[Math.floor(Math.random() * horoscopeElements.length)];
+    const randomMessage = (astrologyMessages[randomSign] && astrologyMessages[randomSign][randomElement]) || ["No data available for this combination."];
+    const randomIndex = Math.floor(Math.random() * randomMessage.length);
+    const message = `${randomSign} ${randomElement} Horoscope: ${randomMessage[randomIndex]}`;
+    return message;
+  }
+
+const randomAstrologyMessage = generateAstrologyMessage();
+console.log(randomAstrologyMessage);
   
