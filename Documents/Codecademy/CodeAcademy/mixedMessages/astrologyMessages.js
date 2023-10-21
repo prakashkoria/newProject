@@ -14,3 +14,7 @@ const zodiacSigns = [
     "Aquarius",
     "Pisces",
   ];
+
+  const horoscopeElements = ["Love", "Career", "Health"];
+
+  
